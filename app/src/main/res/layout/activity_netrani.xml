@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".island"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="298dp"
+        android:layout_height="209dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/netrani" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="358dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="NETRANI ISLAND"
+                android:textColor="@color/black"
+                android:textSize="26dp" />
+
+            <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="@string/netrani_txt"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+
+            <Button
+            android:id="@+id/guidenetrani"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ASSIGN A GUIDE"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:backgroundTint="@color/black"
+            android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
